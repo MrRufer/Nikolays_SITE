@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Преподаватель математики</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Преподаватель математики</h1>
+        <nav>
+            <ul>
+                <li><a href="#homeworks">Домашние задания</a></li>
+                <li><a href="#solutions">Разборы задач</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="homeworks">
+        <h2>Домашние задания</h2>
+        <article>
+            <h3>Задание №1</h3>
+            <p>Решите уравнения:</p>
+            <ul>
+                <li>2x + 5 = 11</li>
+                <li>3(x - 4) = 15</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Задание №2</h3>
+            <p>Найдите площадь прямоугольника со сторонами 5 см и 10 см.</p>
+        </article>
+    </section>
+
+    <section id="solutions">
+        <h2>Разборы задач</h2>
+        <article>
+            <h3>Решение уравнения 2x + 5 = 11</h3>
+            <p>1. Вычтем 5 из обеих частей уравнения: 2x = 6.</p>
+            <p>2. Разделим обе части на 2: x = 3.</p>
+        </article>
+        <article>
+            <h3>Решение задачи на площадь прямоугольника</h3>
+            <p>Площадь прямоугольника вычисляется по формуле S = a * b.</p>
+            <p>Подставляем значения: S = 5 см * 10 см = 50 см².</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Если у вас есть вопросы, вы можете связаться со мной по электронной почте: <a href="mailto:teacher@math.com">teacher@math.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Преподаватель математики</p>
+    </footer>
+</body>
+</html>
